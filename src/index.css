@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.person {
+  background: #a7a7a8;
+  color: teal;
+  width: 17rem;
+  padding: 1rem;
+  margin: 2rem auto;
+  border-radius: o.3rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.person:hover {
+  box-shadow: 2px 5px 10px blue;
+}
+
+.person img {
+  border-radius: 50%;
+  border-radius: 0.1rem solid teal;
+  height: 100px;
+  width: 100px;
+}
+
+.person h4 {
+  text-transform: uppercase;
+  margin: 0rem 0;
+  letter-spacing: o.15rem;
+  color: teal;
+}
+
+.person-list {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .person-list {
+    display: block;
+  }
+}
